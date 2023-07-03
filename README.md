@@ -27,3 +27,14 @@ npm start
 ```
 
 Update `src/App.js` to point to the local backend
+
+
+### Visualize embeddings
+
+```
+cd embedding-projector
+tensorboard --logdir logs
+```
+Visit `http://localhost:6006/?darkMode=true#projector`
+
+![Screenshot of Embedding Projector](embedding-projector/ss.png)
